@@ -52,7 +52,7 @@ class Example extends React.Component {
               } else if (filters[1]) {
                 return age > filters[1];
               }
-              return false;
+              return [];
             },
             display: (filterList, onChange, index, column) => (
               <div>
